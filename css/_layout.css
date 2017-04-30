@@ -1,0 +1,40 @@
+body {
+  font-family: "MicrosoftJhengHeiRegular";
+  font-weight: 100; }
+
+.clearfix {
+  clear: both; }
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 1px solid red;
+  overflow-x: hidden; }
+
+.container {
+  padding: 50px 42px;
+  position: relative; }
+
+.header {
+  height: 56px;
+  background: rgba(0, 0, 0, 0.75);
+  line-height: 56px;
+  position: relative;
+  padding: 0 42px;
+  z-index: 2; }
+  .header .site-logo {
+    background-image: url("../assets/logo_w@svg.svg");
+    width: 120px;
+    height: 24px;
+    background-size: contain; }
+
+.header_nav {
+  float: right; }
+  .header_nav li {
+    float: left;
+    margin-left: 30px; }
+    .header_nav li a {
+      font-size: 16px;
+      color: #FFF;
+      display: block;
+      text-decoration: none; }
